@@ -1,5 +1,4 @@
 # DynaST
-Pytorch implementation of paper "DynaST: Dynamic Sparse Transformer for Exemplar-Guided Image Generation", ECCV 2022.
 
 This is the pytorch implementation of the following ECCV 2022 paper:
 
