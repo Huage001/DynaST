@@ -1,0 +1,34 @@
+python train.py \
+--name deepfashion \
+--model pix2pix \
+--dataset_mode deepfashion \
+--dataroot [ROOT OF DEEPFAHION DATASET] \
+--niter 80 \
+--niter_decay 20 \
+--real_reference_probability 0.0 \
+--hard_reference_probability 0.0 \
+--which_perceptual 4_2 \
+--weight_perceptual 0.001 \
+--vgg_normal_correct \
+--no_flip \
+--video_like \
+--gpu_ids 0,1,2,3,4,5,6,7 \
+--netG dynast \
+--display_freq 500 \
+--print_freq 50 \
+--save_latest_freq 2500 \
+--save_epoch_freq 5 \
+--nThreads 40 \
+--weight_warp_self 1000.0 \
+--lr 0.0001 \
+--amp \
+--display_winsize 256 \
+--iteration_count 5 \
+--batchSize 40 \
+--load_size 256 \
+--ngf 64 \
+--crop_size 256 \
+--n_layers 2 \
+--init_type xavier \
+--vgg_path vgg/vgg19_conv.pth
+
