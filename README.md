@@ -7,7 +7,7 @@ DynaST: Dynamic Sparse Transformer for Exemplar-Guided Image Generation
 
 *Songhua Liu, Jingwen Ye, Sucheng Ren, and Xinchao Wang.*
 
-<img src="teaser.jpg" style="zoom: 67%;" />
+<img src="https://github.com/Huage001/DynaST/blob/main/teaser.jpg" width="500px"/>
 
 ## Installation
 
