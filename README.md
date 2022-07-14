@@ -2,7 +2,7 @@
 
 This is the pytorch implementation of the following ECCV 2022 paper:
 
-DynaST: Dynamic Sparse Transformer for Exemplar-Guided Image Generation
+[DynaST: Dynamic Sparse Transformer for Exemplar-Guided Image Generation](https://arxiv.org/abs/2207.06124)
 
 *Songhua Liu, Jingwen Ye, Sucheng Ren, and Xinchao Wang.*
 
